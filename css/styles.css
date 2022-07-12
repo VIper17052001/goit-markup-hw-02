@@ -1,0 +1,104 @@
+/* Header */
+.header {
+}
+.header-logo {
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+}
+.header-contact-list {
+}
+.header-contact-item {
+}
+.header-contact-mail {
+}
+.header-contact-tel {
+}
+/* Hero */
+.hero {
+}
+.hero-headline {
+}
+.hero-btn {
+}
+/* Softskills */
+.softskills {
+}
+.softskills-list {
+}
+.softskills-item {
+}
+.softskills-headline {
+}
+.softskills-text {
+}
+/* Occupation */
+.occupation {
+}
+.occupation-headline {
+}
+.occupation-list {
+}
+.occupation-item {
+}
+/* Team */
+.team {
+}
+.team-headline {
+}
+.team-list {
+}
+.team-item {
+}
+.team-name {
+}
+.team-text {
+}
+/* Footer */
+.footer {
+}
+.footer-logo {
+}
+.address {
+}
+.footer-list {
+}
+.footer-item {
+}
+.map-link {
+}
+.footer-contact-mail {
+}
+.footer-contact-tel {
+}
+/* Portfolio */
+.portfolio {
+}
+.portfolio-nav-list {
+}
+.portfolio-nav-item {
+}
+.portfolio-nav-btn {
+}
+.project-list {
+}
+.project-item {
+}
+.project-headline {
+}
+.project-text {
+}
+
+.header-item,
+.header-contact-item,
+.softskills-item,
+.occupation-item,
+.team-item,
+.footer-item,
+.portfolio-nav-item,
+.project-item {
+  list-style-type: none;
+}
