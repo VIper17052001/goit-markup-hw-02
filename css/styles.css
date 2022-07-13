@@ -10,7 +10,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 100%;
   color: black;
 }
 .header-logo-color {
@@ -22,11 +22,14 @@ body {
 }
 .header-link {
   color: #212121;
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 100%;
+}
+.header-link:hover,
+.header-link:focus {
+  color: #2196f3;
 }
 .header-contact-list {
 }
@@ -34,19 +37,25 @@ body {
 }
 .header-contact-mail {
   color: #757575;
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 100%;
+}
+.header-contact-mail:hover,
+.header-contact-mail:focus {
+  color: #2196f3;
 }
 .header-contact-tel {
   color: #757575;
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 100%;
+}
+.header-contact-tel:hover,
+.header-contact-tel:focus {
+  color: #2196f3;
 }
 /* Hero */
 .hero {
@@ -54,22 +63,27 @@ body {
 }
 .hero-headline {
   color: white;
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 116%;
 }
 .hero-btn {
   background-color: #2196f3;
-  color: white;
   width: 200px;
   height: 50px;
-  font-family: "Roboto";
+  border: 0;
+  border-radius: 4px;
+}
+.hero-btn:hover {
+  background: #188ce8;
+}
+.hero-btn-text {
+  color: white;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 160%;
 }
 /* Softskills */
 .softskills {
@@ -79,29 +93,24 @@ body {
 .softskills-item {
 }
 .softskills-headline {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 100%;
 }
 .softskills-text {
   color: #757575;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 146%;
 }
 /* Occupation */
 .occupation {
 }
 .occupation-headline {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 100%;
 }
 .occupation-list {
 }
@@ -111,30 +120,25 @@ body {
 .team {
 }
 .team-headline {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 100%;
 }
 .team-list {
 }
 .team-item {
 }
 .team-name {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 100%;
 }
 .team-text {
   color: #757575;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 100%;
 }
 /* Footer */
 .footer {
@@ -146,7 +150,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 100%;
 }
 .address {
 }
@@ -156,27 +160,36 @@ body {
 }
 .map-link {
   color: white;
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 146%;
+}
+.map-link:hover,
+.map-link:focus {
+  color: #2196f3;
 }
 .footer-contact-mail {
   color: #757575;
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 146%;
+}
+.footer-contact-mail:hover,
+.footer-contact-mail:focus {
+  color: #2196f3;
 }
 .footer-contact-tel {
   color: #757575;
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 146%;
+}
+.footer-contact-tel:hover,
+.footer-contact-tel:focus {
+  color: #2196f3;
 }
 /* Portfolio */
 .portfolio {
@@ -186,14 +199,27 @@ body {
 .portfolio-nav-item {
 }
 .portfolio-nav-btn {
+  background: #f5f4fa;
+  border: 0;
+  border-radius: 4px;
+}
+.portfolio-nav-btn:hover {
+  background: #2196f3;
+  color: #f5f4fa;
 }
 .project-list {
 }
 .project-item {
 }
 .project-headline {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 171%;
 }
 .project-text {
+  font-size: 16px;
+  line-height: 160%;
 }
 
 .header-item,
