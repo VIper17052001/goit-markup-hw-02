@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
   color: #212121;
 }
 /* Header */
@@ -62,7 +62,7 @@ body {
   background-color: #2f303a;
 }
 .hero-headline {
-  color: white;
+  color: #ffffff;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -74,12 +74,14 @@ body {
   height: 50px;
   border: 0;
   border-radius: 4px;
+  cursor: pointer;
 }
 .hero-btn:hover {
   background: #188ce8;
 }
 .hero-btn-text {
   color: white;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -161,7 +163,6 @@ body {
 .map-link {
   color: white;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 146%;
 }
@@ -172,7 +173,6 @@ body {
 .footer-contact-mail {
   color: #757575;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 146%;
 }
@@ -183,7 +183,6 @@ body {
 .footer-contact-tel {
   color: #757575;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 146%;
 }
@@ -202,10 +201,16 @@ body {
   background: #f5f4fa;
   border: 0;
   border-radius: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 139%;
 }
 .portfolio-nav-btn:hover {
   background: #2196f3;
   color: #f5f4fa;
+  cursor: pointer;
 }
 .project-list {
 }
