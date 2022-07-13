@@ -1,28 +1,75 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
 /* Header */
 .header {
 }
 .header-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: black;
+}
+.header-logo-color {
+  color: #2196f3;
 }
 .header-list {
 }
 .header-item {
 }
 .header-link {
+  color: #212121;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
 .header-contact-list {
 }
 .header-contact-item {
 }
 .header-contact-mail {
+  color: #757575;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
 .header-contact-tel {
+  color: #757575;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
 /* Hero */
 .hero {
+  background-color: #2f303a;
 }
 .hero-headline {
+  color: white;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
 }
 .hero-btn {
+  background-color: #2196f3;
+  color: white;
+  width: 200px;
+  height: 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
 }
 /* Softskills */
 .softskills {
@@ -32,13 +79,29 @@
 .softskills-item {
 }
 .softskills-headline {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
 }
 .softskills-text {
+  color: #757575;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 }
 /* Occupation */
 .occupation {
 }
 .occupation-headline {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
 }
 .occupation-list {
 }
@@ -48,19 +111,42 @@
 .team {
 }
 .team-headline {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
 }
 .team-list {
 }
 .team-item {
 }
 .team-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
 }
 .team-text {
+  color: #757575;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
 /* Footer */
 .footer {
+  background-color: #2f303a;
 }
 .footer-logo {
+  color: white;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
 }
 .address {
 }
@@ -69,10 +155,28 @@
 .footer-item {
 }
 .map-link {
+  color: white;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 }
 .footer-contact-mail {
+  color: #757575;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 }
 .footer-contact-tel {
+  color: #757575;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 }
 /* Portfolio */
 .portfolio {
@@ -101,4 +205,15 @@
 .portfolio-nav-item,
 .project-item {
   list-style-type: none;
+}
+
+.header-link,
+.header-contact-mail,
+.header-contact-tel,
+.header-logo,
+.footer-logo,
+.map-link,
+.footer-contact-mail,
+.footer-contact-tel {
+  text-decoration: none;
 }
