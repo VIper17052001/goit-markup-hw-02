@@ -67,7 +67,6 @@ body {
 }
 .hero-headline {
   color: #ffffff;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -97,7 +96,6 @@ body {
 .softskills-item {
 }
 .softskills-headline {
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -113,7 +111,6 @@ body {
 .occupation {
 }
 .occupation-headline {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -125,9 +122,9 @@ body {
 }
 /* Team */
 .team {
+  background-color: #f5f4fa;
 }
 .team-headline {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -138,7 +135,6 @@ body {
 .team-item {
 }
 .team-name {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -181,7 +177,7 @@ body {
   color: #2196f3;
 }
 .footer-contact-mail {
-  color: #757575;
+  color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -192,7 +188,7 @@ body {
   color: #2196f3;
 }
 .footer-contact-tel {
-  color: #757575;
+  color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -237,6 +233,7 @@ body {
   letter-spacing: 0.06em;
 }
 .project-text {
+  color: #757575;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
