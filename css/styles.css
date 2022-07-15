@@ -229,6 +229,7 @@ body {
 .project-item {
 }
 .project-headline {
+  color: #212121;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -240,6 +241,9 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+}
+
+.project-link {
 }
 
 .header-item,
@@ -260,6 +264,7 @@ body {
 .footer-logo,
 .map-link,
 .footer-contact-mail,
-.footer-contact-tel {
+.footer-contact-tel,
+.project-link {
   text-decoration: none;
 }
