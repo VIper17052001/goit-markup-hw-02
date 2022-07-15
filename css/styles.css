@@ -33,6 +33,9 @@ body {
 .header-link:focus {
   color: #2196f3;
 }
+.header-link-color {
+  color: #2196f3;
+}
 .header-contact-list {
 }
 .header-contact-item {
