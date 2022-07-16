@@ -1,6 +1,10 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #212121;
+}
+
+:root {
+  --first-text-color
 }
 /* Header */
 .header {
@@ -69,6 +73,7 @@ body {
   background-color: #2f303a;
 }
 .hero-headline {
+  text-transform: uppercase;
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
@@ -99,6 +104,7 @@ body {
 .softskills-item {
 }
 .softskills-headline {
+  text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -212,7 +218,7 @@ body {
   background: #f5f4fa;
   border: 0;
   border-radius: 4px;
-  font-family: "Roboto";
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
